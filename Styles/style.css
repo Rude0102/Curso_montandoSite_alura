@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family= Roboto +Mono & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,300;1,300 & family= Roboto+Mono & display=swap');  
+
+:root{
+    --cor-hover: #272727;
+    --cor-secundaria:aqua;
+    --cor-texto:#d9e2e3;
+    --cor-destaque:#05edfe;
+    --cor-rodape:#0905fceb;
+}
+
+*{
+    margin: 0;
+    padding:0  ;
+}
+
+body{
+    background-image: url("/Assets/Planodefundo_roxo.jpg");
+    background-position: center center;
+    /* height: 100vh ; */
+    box-sizing: border-box;
+    color:var(--cor-texto);
+}
+
+.logo_tipo{
+    display:flex;
+    flex-direction: column;
+    align-items: auto flex-start center;
+}
+ 
+
+.aprensetacao{
+    text-align:center;
+
+}
+
+
+.Titulo_destaque{
+    color:var(--cor-destaque);
+}
+
+.cabecalho{
+    padding:2% 0% 0% 15%;
+}
+
+.cabecalho_Menu_link{
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+    font-weight: 600;
+    color:var(--cor-texto);  
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.cabecalho_Menu_link:hover{
+    color:var(--cor-destaque);
+}
+ 
+
+.aprensetacao{
+    /* margin:10% 15%; */
+    padding: 8%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction:column; 
+    gap: 40px;
+    
+}
+
+.aprensetacao__conteudo__titulo{
+    font-size:36px;
+    font-family: 'Roboto Mono', monospace;
+    text-align:center;
+}
+
+.aprensetacao__conteudo__texto{
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    font-weight: bold;
+}
+
+.Contato{
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Celular{
+    font-family: 'Montserrat', sans-serif;
+    color:var(--cor-destaque);
+}
+
+.apresentacao__links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:32px;
+}
+
+.apresentacao__links_subtitulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 400;
+    font-size: 24px
+
+}
+
+.Instagram{
+    /* background-color:#22d4fd; */
+    display:flex;
+    /* Traz o conteúdo para a posição desejada */
+    justify-content:center;
+    /* espaçamento entre os elementos */
+    gap:16px;
+    border: 2px solid #22D4FD;
+    width: 378px;
+    border-radius: 8px;
+    text-align:center;
+    border-radius:16px;
+    font-size:24px;
+    font-weight: 600px;
+    padding: 21.5px 0;
+    Color: var(--cor-texto);
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Instagram:hover{
+    background-color: var(--cor-hover);
+}
+
+
+.GitHub{
+        /* background-color:#22d4fd; */
+        display:flex;
+        /* Traz o conteúdo para a posição desejada */
+        justify-content:center;
+        /* espaçamento entre os elementos */
+        gap:16px;
+        border: 2px solid #22D4FD;
+        width: 378px;
+        border-radius: 8px;
+        text-align:center;
+        border-radius:16px;
+        font-size:24px;
+        font-weight: 600px;
+        padding: 21.5px 0;
+        Color: var(--cor-texto);
+        text-decoration:none;
+        font-family: 'Montserrat', sans-serif;   
+
+}
+
+.GitHub:hover{
+    background-color: #272727;
+}
+
+.Linkedin{
+    /* background-color:#22d4fd; */
+    display:flex;
+    /* Traz o conteúdo para a posição desejada */
+    justify-content:center;
+    /* espaçamento entre os elementos */
+    gap:16px;
+    border: 2px solid #22D4FD;
+    width: 378px;
+    border-radius: 8px;
+    text-align:center;
+    border-radius:16px;
+    font-size:24px;
+    font-weight: 600px;
+    padding: 21.5px 0;
+    Color: var(--cor-texto);
+    text-decoration:none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Linkedin:hover{
+    background-color: #272727;
+}
+
+
+.rodape{
+    color: #f3eded;
+    background-color:var(--cor-rodape);
+    font-family: 'Montserrat', sans-serif;
+    /* padding é a o espaço da borda para fora */
+    padding:22px;
+    text-align: center; 
+    font-size:15px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+/* 
+.curriculo{
+    font-size: 50px;
+    color:#22D4FD;
+}
+
+.experiencias{
+    font-size: 50px;
+    color:#22D4FD;
+}
+
+.estudos{
+    font-size: 50px;
+    color:#22D4FD;
+}
+
+.texto_curriculo{
+    font-size:18px;
+    font-family: 'Roboto Mono', monospace;
+} */
